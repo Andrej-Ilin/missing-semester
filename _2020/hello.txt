@@ -1,2 +1,19 @@
 hello, git
 another line
+
+Who was the last person to modify README.md? (Hint: use git log with an argument):
+git log -p README.md
+Author: Anish Athalye <me@anishathalye.com>q
+
+What was the commit message associated with the last modification to the collections: line of _config.yml?
+git show a88b4eac
+Redo lectures as a collection
+
+What happens when you do git stash? What do you see when running git log --all --oneline? Run git stash pop to undo what you did with git stash.
+In what scenario might this be useful?
+git stash is useful when:
+
+You need to switch to another branch quickly, but you have uncomplicated changes.
+Do you want to save the changes temporarily without creating a commit?
+You have received changes from the server that conflict with your local changes, and you want to temporarily remove your changes.
+
