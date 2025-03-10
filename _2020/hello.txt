@@ -17,3 +17,5 @@ You need to switch to another branch quickly, but you have uncomplicated changes
 Do you want to save the changes temporarily without creating a commit?
 You have received changes from the server that conflict with your local changes, and you want to temporarily remove your changes.
 
+git checkout -b new_branch
+
